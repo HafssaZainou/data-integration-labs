@@ -68,3 +68,37 @@ ___This text is also bold and italic.___
 ```
 
 `This is inline code.`
+
+### Escaping Characters
+**CommonMark** . One Backslash (\) right before a special formatting character escapes the character and shows its usual form not formatted.
+
+```markdown
+\*\*This text is bold.\*\*
+\_\_This text is also bold.\_\_
+\*This text is italic.\*
+\_This text is also italic.\_
+```
+
+\*\*This text is bold.\*\*  
+\_\_This text is also bold.\_\_  
+\*This text is italic.\*  
+\_This text is also italic.\_
+
+### Paragraphs and Line Breaks
+**CommonMark** . A single line break gets ignored, the lines will still be joined. A blank line starts a new paragraph. A backslash (\) or two spaces (  ) force a line break.
+
+```markdown
+A blank line starts a new paragraph.
+
+A single line break
+...gets ignored, but a backslash\
+or two spaces
+force a line break.
+```
+
+A blank line starts a new paragraph.
+
+A single line break
+...gets ignored, but a backslash\
+or two spaces  
+force a line break.
